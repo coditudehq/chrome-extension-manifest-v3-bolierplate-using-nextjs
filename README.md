@@ -1,0 +1,1 @@
+# chrome-extension-manifest-v3-bolierplate-using-nextjs
