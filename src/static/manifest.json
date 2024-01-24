@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "version": "2.0",
+  "name": "chrome-extension-nextjs-starter",
+  "description": "chrome-extension-nextjs-starter",
+  "action": {
+    "default_popup": "./dist/index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "./dist/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
