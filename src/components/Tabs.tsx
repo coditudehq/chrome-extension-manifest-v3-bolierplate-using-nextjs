@@ -1,4 +1,6 @@
-"use Client";
+/* eslint-disable */
+
+// "use Client";
 import React from "react";
 import { useUsersQuery } from "../app/modules/auth/slices/authApiSlice";
 

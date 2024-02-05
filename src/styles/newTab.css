@@ -1,0 +1,89 @@
+.search-box {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  width: 671px;
+  height: 45px;
+  background: #f7f7f7;
+  /* top: 253px;
+  left: 636px; */
+}
+.search-box input {
+  padding: 5px;
+  background-color: transparent;
+}
+.search-box,
+input::placeholder {
+  font-size: 15px;
+}
+
+.search-btn {
+  width: 94px;
+  height: 42px;
+  background: #19115d;
+  border-radius: 61px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  /* top: 258px
+left: 1301px */
+}
+
+/* ------------------------------------------------------------------------- */
+
+.userTable {
+  width: 762px;
+  margin-top: 40px;
+}
+.userTable table {
+  width: inherit;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.userTable table tr th {
+  width: inherit;
+  padding: 15px;
+  background-color: #ccc;
+  text-align: center;
+}
+.userTable table tr td {
+  width: inherit;
+  padding: 15px;
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+/* date picker */
+.date-picker [type="date"] {
+  background: #fff
+    url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+    97% 50% no-repeat;
+}
+.date-picker [type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+.date-picker [type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+/* custom styles */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.hoverBtn:hover {
+  border-bottom: 3px solid #19115d;
+}

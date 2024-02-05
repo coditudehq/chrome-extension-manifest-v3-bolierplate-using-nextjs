@@ -1,14 +1,9 @@
 import Tabs from "@/components/Tabs";
 import type { CustomNextPage } from "next";
-import Head from "next/head";
 import { Layout } from "../layout";
-import "../styles/tabs.css";
+
 const IndexPage: CustomNextPage = () => {
-  return (
-    <div>
-      <Tabs />
-    </div>
-  );
+  return <div className="w-[800px] h-[600px]">{<Tabs />}</div>;
 };
 
 export default IndexPage;

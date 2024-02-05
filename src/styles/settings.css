@@ -1,0 +1,6 @@
+/* Add this CSS to your stylesheet */
+input[type="radio"]:checked {
+  color: #19115d !important;
+  background-color: #19115d !important;
+  font-size: 17px;
+}

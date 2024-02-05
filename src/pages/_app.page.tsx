@@ -1,4 +1,9 @@
 "use Client";
+import "../../public/assets/tailwind.css";
+import "../../public/assets/app.css";
+import "../styles/newTab.css";
+import "../styles/cards.css";
+import "../styles/settings.css";
 import type { CustomAppProps } from "next/app";
 import { Provider } from "react-redux";
 import { memo } from "react";
